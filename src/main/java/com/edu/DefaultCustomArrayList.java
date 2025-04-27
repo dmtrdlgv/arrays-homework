@@ -16,7 +16,6 @@ public class DefaultCustomArrayList<E> implements CustomArrayList<E> {
     @Override
     public boolean add(E element) {
         if (dataSize >= size) {
-            element = Arrays.c
         }
         return true;
     }
